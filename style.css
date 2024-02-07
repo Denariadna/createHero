@@ -1,0 +1,51 @@
+body{
+    padding-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-image: url(img/фон.jpg);
+    font-family: "Rubik Doodle Shadow";
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-family: "Rubik Doodle Shadow";
+    text-align: center;
+}
+
+#heroName, #heroClass{
+    font-size: 24px;
+    font-family: "Rubik Doodle Shadow";
+}
+
+#heroesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1240px;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    width: 100%;
+    max-width: 320px;
+    border: 1px solid #001520;
+    border-radius: 5px;
+    font-family: "Rubik Doodle Shadow";
+    font-weight: 700;
+    text-align: center;
+}
+
+button{
+    font-family: "Rubik Doodle Shadow";
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
